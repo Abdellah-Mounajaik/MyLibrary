@@ -118,7 +118,7 @@ public class Main {
                     // String availability = book.isAvailable() ? "Disponible" : "Non disponible";
                     // System.out.println(i + " - " + book.getTitle() + " par " + book.getAuthor() + " (" + availability + ")");
                 }
-                // Demander à l'utilisateur de sélectionner un livre
+                // Demander à l'utilisateur de sélectgit push -f origin masterionner un livre
                 System.out.println("Veuillez sélectionner le numéro du livre à emprunter :");
                 int selectionBookIndex = scanner.nextInt();
                 scanner.nextLine(); // Vider le tampon
@@ -137,7 +137,6 @@ public class Main {
                 //     System.out.println("Impossible d'emprunter ce livre.");
                 // }
                 break;
-
         
             default:
                 System.out.println("Fin du programme.");
